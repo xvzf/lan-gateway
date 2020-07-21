@@ -4,7 +4,7 @@
 This repository contains scripts for building an Alpine-Image containing the Gateway configuration used at Lanarama.
 
 ## Gateway Services
-[We](We) are using `nftable` as firewall / forwarder. It firewalls IPv6 traffic (very basic, conntrack only) and acts as NAT gateway for IPv4 clients.
+[We](https://lanarama.com) are using `nftable` as firewall / forwarder. It firewalls IPv6 traffic (very basic, conntrack only) and acts as NAT gateway for IPv4 clients.
 Nftables internal `jhash` maps a number of clients across multiple public IPv4 addresses.
 
 
